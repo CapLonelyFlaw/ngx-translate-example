@@ -8,6 +8,7 @@ import { Localization, TRANSLATE_TOKEN } from './ngx-translate-override/ngx-tran
     <div>Child-2 component inherits localizations from app-root</div>
     <div style="color: blue;">APP_CMP_1: {{'APP_CMP_1' | myTranslate}}</div>
     <div style="color: blueviolet;">APP_CMP_2: {{'APP_CMP_2' | myTranslate}}</div>
+    <div translate="GLOBAL"></div>
     <app-child1></app-child1>
     <app-child2></app-child2>
   <div>app-root</div>
